@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webElementCommand.partialLinkText">
+      <class name="base.LoginTestWithMultipleBrowser">
         <methods>
-          <include name="closeFacebook"/>
-          <include name="partialLinkText2"/>
-          <include name="openFacebook"/>
+          <include name="closeTest"/>
+          <include name="openTest"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- webElementCommand.partialLinkText -->
+      </class> <!-- base.LoginTestWithMultipleBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

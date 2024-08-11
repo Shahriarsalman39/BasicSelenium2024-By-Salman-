@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-21T19:45:16 BDT" name="Default suite" finished-at="2024-05-21T19:45:23 BDT" duration-ms="7060">
+  <suite started-at="2024-08-08T23:18:22 BDT" name="Default suite" finished-at="2024-08-08T23:18:28 BDT" duration-ms="5778">
     <groups>
     </groups>
-    <test started-at="2024-05-21T19:45:16 BDT" name="Default test" finished-at="2024-05-21T19:45:23 BDT" duration-ms="7060">
-      <class name="locators.RegularXpath">
-        <test-method is-config="true" signature="openFacebook()[pri:0, instance:locators.RegularXpath@10e31a9a]" started-at="2024-05-21T19:45:16 BDT" name="openFacebook" finished-at="2024-05-21T19:45:22 BDT" duration-ms="6689" status="PASS">
+    <test started-at="2024-08-08T23:18:22 BDT" name="Default test" finished-at="2024-08-08T23:18:28 BDT" duration-ms="5778">
+      <class name="base.LoginTestWithMultipleBrowser">
+        <test-method is-config="true" signature="openTest()[pri:0, instance:base.LoginTestWithMultipleBrowser@36902638]" started-at="2024-08-08T23:18:22 BDT" name="openTest" finished-at="2024-08-08T23:18:27 BDT" duration-ms="5038" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openFacebook -->
-        <test-method signature="regularXpathTestForID()[pri:0, instance:locators.RegularXpath@10e31a9a]" started-at="2024-05-21T19:45:22 BDT" name="regularXpathTestForID" finished-at="2024-05-21T19:45:23 BDT" duration-ms="94" status="PASS">
+        </test-method> <!-- openTest -->
+        <test-method signature="loginTest()[pri:0, instance:base.LoginTestWithMultipleBrowser@36902638]" started-at="2024-08-08T23:18:27 BDT" name="loginTest" finished-at="2024-08-08T23:18:27 BDT" duration-ms="367" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regularXpathTestForID -->
-        <test-method is-config="true" signature="closeFacebook()[pri:0, instance:locators.RegularXpath@10e31a9a]" started-at="2024-05-21T19:45:23 BDT" name="closeFacebook" finished-at="2024-05-21T19:45:23 BDT" duration-ms="193" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:base.LoginTestWithMultipleBrowser@36902638]" started-at="2024-08-08T23:18:27 BDT" name="closeTest" finished-at="2024-08-08T23:18:28 BDT" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeFacebook -->
-      </class> <!-- locators.RegularXpath -->
+        </test-method> <!-- closeTest -->
+      </class> <!-- base.LoginTestWithMultipleBrowser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
